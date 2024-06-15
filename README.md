@@ -1,1 +1,0 @@
-# PropertyPredictionVisionLanguage.github.io
