@@ -188,3 +188,6 @@ text-align: center;
   height: 445px; /* Specify the desired height */
   object-fit: cover; /* Ensure images cover the specified dimensions */
 }
+.Result{
+  text-align: center;
+}
