@@ -95,7 +95,7 @@
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/ChemistryVisionlanguage/ppvl-bench" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -137,9 +137,80 @@
   </div>
 </section>
 <!-- End teaser video -->
-
-<!-- Paper abstract -->
 <section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-five-sixths">
+        <h2 class="title is-3">MPr-2 -- Charateristic and Statistics</h2>
+        <!-- <h2 class="title is-3">BLINK Benchmark -- Unique Features of BLINK?</h2> -->
+        <h2 class="content has-text-justified">
+          <div class="characteristics">
+            <h2>Characteristics of MPr2-Bench</h2>
+            <ol>
+                <li><strong>Multimodal Integration:</strong> MPr2-Bench combines skeletal structure images with SMILES representations for molecular property prediction.</li>
+                <li><strong>Diverse Datasets:</strong> It includes five datasets covering various molecular properties and complexities.</li>
+                <li><strong>Evaluation Scenarios:</strong> Assessing Vision-Language Models (VLMs) under zero-shot, few-shot, and fine-tuning conditions.</li>
+                <li><strong>Comparative Analysis:</strong> Benchmarking six different VLMs to analyze their effectiveness in computational chemistry.</li>
+            </ol>
+        </div>
+    
+        <div class="statistics">
+            <h2>Statistics of MPr2-Bench</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Number of Datasets</td>
+                        <td>5 datasets, BACE-V, BBBP-V, HIV-V, Clintox-V,Clintox-V, Tox21-V</td>
+                    </tr>
+                    <tr>
+                        <td>Dataset Composition</td>
+                        <td>Includes skeletal structure images and corresponding SMILES strings</td>
+                    </tr>
+                    <tr>
+                        <td>Model Evaluation</td>
+                        <td>Six Vision-Language Models evaluated</td>
+                    </tr>
+                    <tr>
+                        <td>Performance Metrics</td>
+                        <td>Measured across zero-shot, few-shot, and fine-tuning scenarios</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </h2>
+        <img src="./static/images/main_fig.png" height="100%">
+        <h2 class="content has-text-centered">
+          <b>Overview of prompt used for VLMs</b>: We show template prompt used for property prediction,
+          including general outline, task instruction, in-context learning (ICL) examples (k=2), and an image
+          prompt. The prompt guides the prediction of properties based on SMILES and visual representations.
+        </h2>
+       
+        <div class="myrow">
+          <div class="mycolumn">
+            <img src="./static/images/RadarChartAccuracy.jpg" style="width:90%">
+          </div>
+          <div class="mycolumn">
+            <img src="./static/images/RadarChartF1Score.jpg" style="width:90%">
+          </div>
+        </div>
+        <h2 class="content has-text-justified">
+        
+          <ul>
+            <li><b>MPr2-Bench:</b> Comparison of Accuracy and F1 Scores after Fine-tuning on Five Datasets using Various Vision-Language Models</li>
+          </ul>
+          </h2>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Paper abstract -->
+<section class="section hero">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
