@@ -191,3 +191,15 @@ text-align: center;
 .Result{
   text-align: center;
 }
+.image-row {
+  display:block;
+  justify-content: center;
+  align-items: center;
+}
+.image-row img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  margin-left: 10%;
+  margin-right: 10%;
+}
