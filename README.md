@@ -1,17 +1,6 @@
 # mPR2_Bench<img src = "assets/mainlogo.png" width = "40" />
 This repo contains dataset generation, evaluation code for the paper : "MPr2-Bench: Large Vision Language Models for Molecular Property Prediction"
 
-
-## Project Structure
-├── GenerateDataset
-│ ├── SMILE
-    |--BACE.py
-│ ├── SELFIE
-│   |── BACE.py
-├── requirements.txt
-└── README.md
-
-
 ## Setup
 
 To get started, follow these steps:
@@ -55,6 +44,17 @@ To get started, follow these steps:
 2. **Add Your Data:**
 
     Ensure that your molecule data is in the correct format and place it in the appropriate directory. Follow the instructions within each script in the `GenerateDataset` folder to correctly format and input your data.
+
+## Acknowledgements
+
+The finetuning,ICL method used in this project/paper has been referenced from the following repository:
+
+- [Llava1.5](https://github.com/haotian-liu/LLaVA.git)
+- [Llama-AdapterV2](https://github.com/OpenGVLab/LLaMA-Adapter.git)
+- [mPlugOWL2](https://github.com/X-PLUG/mPLUG-Owl.git)
+- [QwenVL](https://github.com/QwenLM/Qwen-VL.git)
+- [CogVLM](https://github.com/THUDM/CogVLM)
+- [BLIP](https://huggingface.co/Salesforce/blip-vqa-base)
 
 ## Contribution
 
