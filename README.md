@@ -3,8 +3,7 @@ This repo contains dataset generation, evaluation code for the paper : "MPr2-Ben
 
 ## Datasets
 You can find all the datasets on Hugging Face:
-
-[![Hugging Face](assets/hf-logo.png)](https://huggingface.co/ChemistryVision)
+[![Gradio](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/ChemistryVision) 
 ## Setup
 
 To get started, follow these steps:
