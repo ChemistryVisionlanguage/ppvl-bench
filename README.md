@@ -1,6 +1,10 @@
 # mPR2_Bench<img src = "assets/mainlogo.png" width = "40" />
 This repo contains dataset generation, evaluation code for the paper : "MPr2-Bench: Large Vision Language Models for Molecular Property Prediction"
 
+## Datasets
+You can find all the datasets on Hugging Face:
+
+[![Hugging Face](assets/hf-logo.png)](https://huggingface.co/ChemistryVision)
 ## Setup
 
 To get started, follow these steps:
